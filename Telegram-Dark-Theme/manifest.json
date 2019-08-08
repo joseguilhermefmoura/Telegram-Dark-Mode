@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+
+	"name": "Telegram Dark-Theme",
+	"version": "1.0.0",
+	"description": "Tema escuro para o Telegram Web.",
+
+	"icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+
+  	"content_scripts": [{
+    	"css": ["styles.css"],
+    	"js": ["jquery-3.4.1.min.js", "script.js"],
+    	"matches": ["https://web.telegram.org/*"]
+  	}]
+	
+}

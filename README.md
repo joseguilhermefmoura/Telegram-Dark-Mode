@@ -1,2 +1,2 @@
 # Telegram-Dark-Mode
-Chrome Extension who turns Telegram on dark mode
+Chrome Extension that turns Telegram on dark mode
